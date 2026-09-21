@@ -10,6 +10,12 @@ Work 1 → Work 2 → Break → Work 1 → Work 2 → Break → ...
 
 The project is deliberately small and transparent: every version is a standalone `pomodoro.py` file with no database, web stack, or heavy GUI framework.
 
+## TLDR
+Use `pomodoro_menubar.py`, the latest version. Download it and run it as a Python script. If you're on MacOS and want a menubar integration, install PyObjC:
+```bash
+python3 -m pip install pyobjc-framework-Cocoa
+```
+
 ## Features
 
 - Custom named timer blocks
